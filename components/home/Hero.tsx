@@ -8,14 +8,14 @@ export default function Hero() {
         <div className="h-full flex flex-col justify-end pb-4 lg:pb-0 lg:w-96 lg:justify-center">
           <div className="h-1/2 flex flex-col justify-center items-center text-center lg:items-start lg:text-left">
             <h1 className="text-4xl lg:text-5xl text-primary-dark-blue pb-5">
-              Next generation digital banking
+              Pay With Ease
             </h1>
             <p className="text-neutral-grayish-blue text-xs lg:text-base leading-5 mb-7">
               Take your financial life online. Your Easybank account will be a
               one-stop-shop for spending, saving, budgeting, investing, and much
               more.
             </p>
-            <button className="bg-primary-lime-green px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:button-brightness mb-7 focus:outline-none focus:ring ring-green-400">
+            <button className="bg-[#ff5733] px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-[#ff5733] to-[#ff5733] hover:button-brightness mb-7 focus:outline-none focus:ring ring-[#ff5733">
               Request Invite
             </button>
           </div>

@@ -4,11 +4,10 @@ export default function Footer() {
       <div className="container">
         <div className="text-center grid grid-cols-1 justify-items-center gap-6 lg:grid-cols-12 lg:gap-0">
           <div className="flex flex-col justify-between lg:justify-self-start lg:col-span-3">
-            <img
-              className="mb-7"
-              src="images/logo-white.svg"
-              alt="easybank logo"
-            />
+          <div className="my-5 lg:my-6 flex flex-row gap-2 items-center">
+            <img src="/logo.png" alt="easybank logo" className='w-12 h-12 rounded-xl' />
+            <p className='font-bold text-white'>Prive Pay</p>
+          </div>
             <div className="flex justify-between items-center">
               <svg
                 className="text-white hover:text-green-400 fill-current cursor-pointer"
@@ -59,33 +58,29 @@ export default function Footer() {
           </div>
 
           <div className="grid grid-cols-1 gap-2 py-1 lg:grid-rows-3 text-white text-sm lg:text-left lg:justify-self-start lg:col-span-5 lg:gap-x-24 lg:grid-flow-col-dense">
-            <a className="hover:text-green-400" href="#">
-              About Us
-            </a>
-            <a className="hover:text-green-400" href="#">
+          
+            <a className="hover:text-green-400" href="/contact">
               Contact
             </a>
-            <a className="hover:text-green-400" href="#">
-              Blog
-            </a>
-            <a className="hover:text-green-400" href="#">
+           
+            <a className="hover:text-green-400" href="/careers">
               Careers
             </a>
-            <a className="hover:text-green-400" href="#">
+            <a className="hover:text-green-400" href="/contact">
               Support
             </a>
-            <a className="hover:text-green-400" href="#">
+            <a className="hover:text-green-400" href="/terms">
               Privacy Policy
             </a>
           </div>
 
           <div className="flex flex-col justify-between items-center lg:items-end lg:justify-self-end lg:col-span-4">
-            <button className="bg-primary-lime-green px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-primary-lime-green to-primary-bright-cyan hover:button-brightness mb-7 focus:outline-none focus:ring ring-green-400">
+            <button className="bg-[#ff5733] px-7 py-3 rounded-full text-neutral-white text-xs bg-gradient-to-r from-[#ff5733] to-[#ff5733] hover:button-brightness mb-7 focus:outline-none focus:ring ring-green-400">
               Request Invite
             </button>
 
             <p className="text-neutral-grayish-blue text-sm">
-              © Easybank. All Rights Reserved
+              © PrivePay. All Rights Reserved
             </p>
           </div>
         </div>

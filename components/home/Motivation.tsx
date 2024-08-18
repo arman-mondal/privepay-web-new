@@ -32,7 +32,7 @@ export default function Motivation() {
         <div className="grid lg:grid-cols-2 mb-12 lg:mb-16">
           <div className="col-span-1">
             <h2 className="text-3xl lg:text-4xl text-primary-dark-blue pb-5">
-              Why choose Easybank?
+              Why choose PrivePay?
             </h2>
             <p className="text-neutral-grayish-blue text-sm lg:text-base leading-5">
               We leverage Open Banking to turn your bank account into your
