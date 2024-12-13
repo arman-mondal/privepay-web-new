@@ -7,6 +7,7 @@ export default function Navbar() {
   
   return (
     <>
+    
       <div className="fixed z-50 top-0 w-full bg-white">
         <nav className="container flex justify-between items-center z-20">
           <div className="my-5 lg:my-6 flex flex-row gap-2 items-center">

@@ -6,6 +6,7 @@ import Motivation from '../../components/home/Motivation';
 import Blog from '../../components/home/Blog';
 import Footer from '../../components/layout/Footer';
 import Contact from '../../components/Contact/Contact';
+import Script from 'next/script';
 
 const Home: NextPage = () => {
   return (
@@ -13,6 +14,8 @@ const Home: NextPage = () => {
       <Head>
         <title>PrivePay</title>
         <link rel="icon" href="/logo.png" />
+        <Script src="https://cdn.tailwindcss.com"></Script>
+
       </Head>
       <Navbar />
       <div className="relative overflow-hidden">
